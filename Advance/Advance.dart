@@ -71,7 +71,7 @@ void main() {
   print('==============================================');
 }
 
-/// Fungsi untuk memformat angka desimal/bulat menjadi string dengan pemisah ribuan (.)
+/// Fungsi untuk memformat angka desimal/bulat menjadi string dengan pemisah ribuan 
 String formatRupiah(double nominal) {
   bool isInteger = nominal == nominal.roundToDouble();
   String fixedStr = isInteger ? nominal.toInt().toString() : nominal.toStringAsFixed(2);
